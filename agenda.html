@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- CDN CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <!-- CDN Icones Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <!-- CDN JS JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CDN JS Bundle Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+
+    <header>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+		
+            <img src="https://br.cellep.com/wp-content/themes/cellep/assets/img/logo_branca.svg" alt="Logo Cel.lep na cor branca">
+            <button class="navbar-toggler" data-toggle="collapse" data-target ="#navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navegacao" class="collapse navbar-collapse pr-5" >
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#"  class= "nav-link active" >Home</a></li>
+                    <li class="nav-item"><a href="agenda.html" class= "nav-link">Agenda</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Entidade</a>
+                        <div class="dropdown-menu  bg-dark"  aria-labelledby="navbarDropdown">
+                            <a  class= "nav-link"  href="https://estacaohack.fb.com/"    target="_blank"   class="dropdown-item">Estação Hack</a>
+
+
+                            <a   class= "nav-link"   href="https://br.cellep.com/" target="_blank" class="dropdown-item">Cel.lep</a>
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                    <a class= "nav-link" href="area_aluno.html">Área do aluno</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </nav>
+
+  </header>
+
+  <main class="container">
+      <div  class="row">
+          <div  class="col-md-12 mt-60">
+           <h2  class="text-warning"> Abril, 21 </h2>
+           <table id= "agenda"  class="table table-bordered table-striped text-center">
+
+            <thead>
+
+              <tr>
+                  <th scope= "col"> segunda </th>
+                  <th scope= "col"> Terça </th>
+                  <th scope= "col"> Quarta </th>
+                  <th scope= "col"> Quinta </th>
+                  <th scope= "col"> Sexta </th>
+                  <th scope= "col"> Sábado </th>
+                  <th scope= "col"> Domingo </th>
+
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="align-midle" >1</td>
+                  <td class="align-midle" >2</td>
+                  <td class="align-midle" >3</td>
+                  <td class="align-midle" >4</td>
+                </tr>
+
+                <tr>
+                  <td class="align-midle" >5</td>
+                  <td class="align-midle" >6</td>
+                  <td class="align-midle" >7</td>
+                  <td class="align-midle" >8</td>
+                  <td class="align-midle" >9</td>
+                  <td class="align-midle" >10</td>
+                  <td class="align-midle" >11</td>
+                </tr>
+
+                <tr>
+                  <td class="align-midle bg-info" >12</td>
+                  <td class="align-midle bg-info " >13</td>
+                  <td class="align-midle bg-info" >14</td>
+                  <td class="align-midle" >15</td>
+                  <td class="align-midle bg-info" >16</td>
+                  <td class="align-midle bg-info"  >17</td>
+                  <td class="align-midle" >18</td>
+                </tr>
+
+                <tr>
+                  <td class="align-midle" >19</td>
+                  <td class="align-midle" >20</td>
+                  <td class="align-midle" >21</td>
+                  <td class="align-midle" >22</td>
+                  <td class="align-midle" >23</td>
+                  <td class="align-midle" >24</td>
+                  <td class="align-midle" >25</td>
+                </tr>
+
+                <tr>
+                  <td class="align-midle" >26</td>
+                  <td class="align-midle" >27</td>
+                  <td class="align-midle" >28</td>
+                  <td class="align-midle" >29</td>
+                  <td class="align-midle" >30</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+
+            </tbody>
+
+
+           </table>
+
+
+          </div>
+
+
+      </div>
+
+
+
+  </main>
+
+  <footer  class="footer bg-dark">
+     <div class="container text-center pt-2">
+          <span class="text-white font-italic" >  Todos os direitos reservados  </span>
+
+     </div>
+   </footer>
+
+
+
+  
+</body>
+</html>

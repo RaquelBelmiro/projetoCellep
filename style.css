@@ -1,0 +1,95 @@
+ /* .row{
+  background-color: #2a2a86;
+}
+
+.row::after{
+  content:"";
+  clear: both;
+  display:table;
+
+}
+
+header nav li{
+    float: left;
+
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+nav a{
+
+  color: aliceblue;
+  padding: 20px 16px;
+
+  display: block;
+}
+
+header img{
+    margin-top: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+nav a:hover:not(.active){
+  background-color: #bd4892 
+}
+
+.dropdown{
+  position: relative;
+}
+
+.dropdown-content{
+
+  display: none;
+  position:absolute;
+  background-color:#333;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+
+.dropdown:hover .dropdown-content{
+  display:block;
+}  */
+
+.bg-imagem{
+    height: 48vw;/*viewport*/
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-imagem{
+    text-shadow: 4px 4px 8px black;
+    font-size: 4vw;
+  }
+  /* redefinindo podaroa dec cores bootstrap */
+  
+  .active{
+    background-color: #007bff;
+  }
+  
+  .nav-link, .dropdown-item{
+  
+    color: white !important;
+  
+  }
+  
+  .nav-link:hover:not(.active), .dropdown-item:hover{
+    background-color: #7952b3;
+    color: white !important;
+  }
+  
+  .mt-60{
+    margin-top: 60px;
+  }
+  
